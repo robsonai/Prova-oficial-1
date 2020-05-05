@@ -1,0 +1,68 @@
+import java.util.cadastro prod;
+import java.util.Scanner;
+import java.util.Arrayprod;
+
+public class Main {
+
+	private Scanner l;
+	private boolean execute;
+	private List<Produtos> produtos;
+
+	public static void main(String[] args) {
+		new Main();
+	}
+
+	private Main() {
+		l = new Scanner(System.in);
+		execute = true;
+		dados = new ArrayList<Produtos>();
+
+		System.out.println("Cadastro de produtos");
+
+		while (execute) {
+			String opcao = menu();
+
+			if (opcao.equalsIgnoreCase("n")) {
+				cadastrar produto();
+			} else if (opcao.equalsIgnoreCase("l")) {
+				listarProdutos();
+			} else if (opcao.equalsIgnoreCase("x")) {
+				execute = false;
+			} else {
+				
+                private String menu() {
+		System.out.println("Selecione o nome do produto:");
+		System.out.println("Preço unitario");
+		System.out.println("Quantidade de itens");
+		System.out.println("adcionar");
+		return l.nextLine();
+	}
+
+	private void relatorio() {
+		boolean somando = true;
+
+		while (somando) {
+			System.out.println("preço dos produtos");
+			Nomes d = new nome();
+			d.setNome(textInput("Nome:"));
+			d.setLogin(textInput("preço: "));
+			
+
+			String somar = textInput("Adicionar cadastro (S/N) ?");
+			if (somar.equalsIgnoreCase("s")) {
+				System.out.println("soma  adicionada !!!");
+				soma.soma(s);
+			} else if (somar.equalssomaCase("s")){
+				System.out.println("Soma total !!!");
+			
+				
+			}
+			System.out.println("\nFim da soma\n");
+		}
+	}
+
+	private String textInput(String label) {
+		System.out.println(label);
+		return l.nextLine();
+	}
+}
